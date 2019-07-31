@@ -16,7 +16,7 @@ public class Hello extends HttpServlet{
 		resp.setContentType("text/html; charset=UTF-8"); //타입
 		Date date = new Date();
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-DD-mm");
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		PrintWriter pw = resp.getWriter(); //printWriter을 리턴함
 		pw.write("<html>");
 		pw.write("	<head>");
